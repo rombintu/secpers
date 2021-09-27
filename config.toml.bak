@@ -1,0 +1,4 @@
+[DEFAULT]
+TimeoutUpdate = 60
+DEBUG = true
+# TOKEN = "TOKEN"
