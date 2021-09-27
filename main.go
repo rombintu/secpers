@@ -64,7 +64,7 @@ func main() {
 				msg.ReplyMarkup = botKeyboard
 				msg.Text = "Hello"
 			case "help":
-				msg.Text = "type /sayhi or /status."
+				msg.Text = "type /new_secret or /status."
 			case "new_secret":
 				tempToken := tools.GetTempToken(userID)
 				path := tools.GetPath(userID)
